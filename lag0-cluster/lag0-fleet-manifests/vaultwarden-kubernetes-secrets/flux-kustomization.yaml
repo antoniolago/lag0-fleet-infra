@@ -6,7 +6,7 @@ metadata:
 spec:
   suspend: true
   interval: 1m0s
-  path: ./vaultwarden-kubernetes-secrets
+  path: ./vaultwarden-kubernetes-secrets-oke
   prune: false
   force: false
   sourceRef:
