@@ -10,7 +10,7 @@ metadata:
 spec:
   sync:
     kind: GitRepository
-    url: "https://github.com/sinpro-rs/fleet-infra"
+    url: "https://github.com/antoniolago/lag0-fleet-infra"
     ref: "refs/heads/main"
     path: "lag0-cluster/lag0-fleet-manifests"
     pullSecret: "github-credentials"
