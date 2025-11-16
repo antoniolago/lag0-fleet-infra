@@ -4,7 +4,7 @@ metadata:
   name: authelia
   namespace: flux-system
 spec:
-  suspend: false
+  suspend: true
   interval: 1m0s
   path: ./authelia
   prune: false
