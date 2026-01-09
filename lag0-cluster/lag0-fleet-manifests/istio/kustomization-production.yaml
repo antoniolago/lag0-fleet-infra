@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./istio-system-ton
+  path: ./istio-system-oke
   prune: false
   force: false
   sourceRef:
