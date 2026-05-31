@@ -1,12 +1,12 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: vaultwarden-kubernetes-secrets
+  name: netbird-operator
   namespace: flux-system
 spec:
   suspend: false
   interval: 1m0s
-  path: ./vaultwarden-kubernetes-secrets-oke
+  path: ./netbird-operator-oke
   prune: false
   force: false
   sourceRef:
