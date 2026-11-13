@@ -4,6 +4,7 @@ metadata:
   name: external-secrets-vars
   namespace: flux-system
 spec:
+  suspend: true
   interval: 1m0s
   path: ./external-secrets-vars
   prune: false

@@ -4,7 +4,7 @@ metadata:
   name: couchdb
   namespace: flux-system
 spec:
-  suspend: false
+  suspend: true
   interval: 1m0s
   path: ./couchdb
   prune: false
